@@ -1,0 +1,15 @@
+:root {
+    --green-darner: #74b9ff;
+    --electron-blue: #0984e3;
+    --american-river: #636e72;
+    --smooth-breeze: #b2bec3;
+
+
+
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--american-river)!important;
+}
