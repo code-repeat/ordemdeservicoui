@@ -22,6 +22,18 @@ body {
   color: #eb4d4b;
 }
 
+.bg-carmine {
+  background-color: #eb4d4b;
+}
+
+.bg-turbo {
+  background-color: #f9ca24;
+}
+
+.turbo {
+  color: #f9ca24;
+}
+
 .form-control {
   border-radius: 1px;
 }

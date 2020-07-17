@@ -6,6 +6,7 @@ $soft-gray: #d2dae2;
 $green-land: #22a6b3;
 $pure-apple: #6ab04c;
 $carmine: #eb4d4b;
+$turbo: #f9ca24;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -28,6 +29,18 @@ body {
 
 .carmine {
     color: $carmine;
+}
+
+.bg-carmine {
+    background-color: $carmine;
+}
+
+.bg-turbo {
+    background-color: $turbo;
+}
+
+.turbo {
+    color: $turbo;
 }
 
 .form-control {
