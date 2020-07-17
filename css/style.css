@@ -1,15 +1,18 @@
-:root {
-    --green-darner: #74b9ff;
-    --electron-blue: #0984e3;
-    --american-river: #636e72;
-    --smooth-breeze: #b2bec3;
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Variables */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
-
-/* NAVBAR */
 .navbar {
-    background-color: var(--american-river)!important;
+  background-color: #485460;
+  padding: 10px;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #d2dae2;
+}
+.navbar .active {
+  color: #fff;
 }

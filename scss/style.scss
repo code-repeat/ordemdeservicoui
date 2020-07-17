@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Variables */
+$dark: #485460;
+$soft-gray: #d2dae2;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: $dark;
+    padding: 10px;
+   
+    .nav-link,
+    .navbar-brand {
+        color: $soft-gray;
+    }
+
+    .active {
+        color: #fff;
+    }
+}
