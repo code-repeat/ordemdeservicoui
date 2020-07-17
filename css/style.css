@@ -1,10 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 /* Variables */
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
+/* Utilities */
+.green-land {
+  background-color: #22a6b3;
+}
+
+.pure-apple {
+  color: #6ab04c;
+}
+
+.bg-pure-apple {
+  background-color: #6ab04c;
+}
+
+.carmine {
+  color: #eb4d4b;
+}
+
+.form-control {
+  border-radius: 1px;
+}
+
+/* Navbar */
 .navbar {
   background-color: #485460;
   padding: 10px;
@@ -15,4 +37,9 @@ body {
 }
 .navbar .active {
   color: #fff;
+}
+
+/* Header */
+input[type=text]:focus {
+  border: 1px solid #485460;
 }
